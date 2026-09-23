@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>เว็บไซต์โรงเรียน - ยุค 2000</title>
+    <style>
+        body {
+            /* พื้นหลังสีเทาคลาสสิกแบบ Windows 98 */
+            background-color: #C0C0C0; 
+            font-family: "MS Sans Serif", Tahoma, sans-serif;
+            color: #000080;
+            margin: 10px;
+        }
+        /* ลิงก์ต้องเป็นสีน้ำเงินและมีขีดเส้นใต้ */
+        a { color: #0000FF; text-decoration: underline; font-size: 14px; }
+        a:visited { color: #800080; }
+        a:hover { color: #FF0000; }
+        
+        .header { 
+            background-color: #000080; 
+            color: #FFFF00; 
+            text-align: center; 
+            padding: 15px; 
+            border: 3px solid #FFFF00; 
+        }
+        .marquee { 
+            background-color: #FF0000; 
+            color: #FFFFFF; 
+            font-weight: bold; 
+            padding: 3px; 
+            font-size: 14px;
+        }
+        .sidebar { 
+            background-color: #FFFFCC; 
+            padding: 10px; 
+            /* กรอบแบบนูน 3 มิติยุคเก่า */
+            border-top: 2px solid #FFFFFF;
+            border-left: 2px solid #FFFFFF;
+            border-right: 2px solid #808080;
+            border-bottom: 2px solid #808080;
+        }
+        .content { 
+            background-color: #FFFFFF; 
+            padding: 15px; 
+            border-top: 2px solid #808080;
+            border-left: 2px solid #808080;
+            border-right: 2px solid #FFFFFF;
+            border-bottom: 2px solid #FFFFFF;
+        }
+        .counter { 
+            background-color: black; 
+            color: #00FF00; 
+            font-family: "Courier New", monospace; 
+            padding: 2px 5px; 
+            border: 2px solid gray; 
+            letter-spacing: 3px;
+            font-size: 16px;
+        }
+        .footer { 
+            text-align: center; 
+            font-size: 12px; 
+            margin-top: 15px; 
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- แบนเนอร์หัวเว็บ -->
+    <div class="header">
+        <h1><img src="https://via.placeholder.com/60/FFFF00/000080?text=LOGO" align="middle" alt="ตราโรงเรียน"> โรงเรียนตระกูลประเทืองวิทยาคม</h1>
+        <i>"เรียนดี กีฬาเด่น เน้นคุณธรรม"</i>
+    </div>
+
+    <!-- แถบตัวหนังสือวิ่ง (ไอเทมฮิตยุค 2000) -->
+    <div class="marquee">
+        <marquee scrollamount="4" scrolldelay="100">
+            *** ยินดีต้อนรับเข้าสู่เว็บไซต์อย่างเป็นทางการ *** ข่าวเด่น: ขอเชิญร่วมงานศิษย์เก่าสัมพันธ์ประจำปี 2545 *** ติดต่อลงโฆษณาแบนเนอร์ได้ที่ Webmaster ***
+        </marquee>
+    </div>
+
+    <!-- โครงสร้างหลักใช้ Table ล้วนๆ -->
+    <table width="100%" border="1" cellpadding="8" cellspacing="0" bordercolor="#000080" style="margin-top: 10px;">
+        <tr valign="top">
+            
+            <!-- เมนูซ้าย -->
+            <td width="20%" class="sidebar">
+                <center><b><u>เมนูหลัก</u></b></center><br>
+                <img src="https://via.placeholder.com/10x10/0000FF/0000FF" alt="bullet"> <a href="#">หน้าแรก (Home)</a><br><br>
+                <img src="https://via.placeholder.com/10x10/0000FF/0000FF" alt="bullet"> <a href="#">ประวัติโรงเรียน</a><br><br>
+                <img src="https://via.placeholder.com/10x10/0000FF/0000FF" alt="bullet"> <a href="#">ทำเนียบผู้บริหาร</a><br><br>
+                <img src="https://via.placeholder.com/10x10/0000FF/0000FF" alt="bullet"> <a href="#">บุคลากร/ครูอาจารย์</a><br><br>
+                <img src="https://via.placeholder.com/10x10/0000FF/0000FF" alt="bullet"> <a href="#">ภาพกิจกรรม</a><br><br>
+                <hr>
+                <center><b><u>ชุมชนศิษย์เก่า</u></b></center><br>
+                <img src="https://via.placeholder.com/10x10/FF0000/FF0000" alt="bullet"> <a href="#">เว็บบอร์ด (Webboard)</a><br><br>
+                <img src="https://via.placeholder.com/10x10/FF0000/FF0000" alt="bullet"> <a href="#">สมุดเยี่ยม (Guestbook)</a><br><br>
+                <img src="https://via.placeholder.com/10x10/FF0000/FF0000" alt="bullet"> <a href="#">ห้องแชท (Chat Room)</a><br>
+            </td>
+
+            <!-- เนื้อหากลาง -->
+            <td width="60%" class="content">
+                <center>
+                    <font size="5" color="#FF0000"><b>ยินดีต้อนรับสู่เว็บไซต์ของเรา!</b></font><br><br>
+                    
+                    <!-- รูปภาพจำลอง -->
+                    <img src="https://via.placeholder.com/350x200/008000/FFFFFF?text=ภาพถ่ายโรงเรียน" border="3" alt="รูปโรงเรียน"><br><br>
+                    
+                    <p>เว็บไซต์นี้จัดทำขึ้นเพื่อเป็นสื่อกลางในการติดต่อสื่อสารระหว่างศิษย์เก่า ศิษย์ปัจจุบัน และคณาจารย์ หากมีข้อเสนอแนะประการใด สามารถไปลงชื่อทักทายกันได้ในสมุดเยี่ยมครับ</p>
+                    <br>
+                    
+                    <!-- ป้าย Under Construction ขาดไม่ได้ในยุคนั้น -->
+                    <img src="https://via.placeholder.com/200x50/FFFF00/FF0000?text=Under+Construction+GIF" alt="Under Construction"><br>
+                    <p><i>หน้าเว็บนี้จัดทำด้วย Microsoft FrontPage 2000 และกำลังอยู่ในช่วงพัฒนา ขออภัยในความไม่สะดวก</i></p>
+                </center>
+            </td>
+
+            <!-- เมนูขวา -->
+            <td width="20%" class="sidebar">
+                <center>
+                    <b><u>ลิงก์เพื่อนบ้าน</u></b><br><br>
+                    <a href="#">กระทรวงศึกษาธิการ</a><br><br>
+                    <a href="#">เว็บ Sanook!</a><br><br>
+                    <a href="#">เว็บ Pantip</a><br><br>
+                    <a href="#">ดาวน์โหลด Winamp</a><br><br>
+                    <hr>
+                    
+                    <!-- สถิติผู้เข้าชมแบบจำลอง -->
+                    <b>สถิติผู้เข้าชม:</b><br><br>
+                    <span class="counter">014258</span><br><br>
+                    <font size="2">เริ่มนับตั้งแต่วันที่<br>1 มกราคม 2543</font>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <!-- ส่วนท้ายเว็บ -->
+    <div class="footer">
+        &copy; Copyright 2000-2002 โรงเรียนตระกูลประเทืองวิทยาคม สงวนลิขสิทธิ์.<br>
+        Best viewed with Microsoft Internet Explorer 5.0 or Netscape Navigator at 800x600 resolution.<br>
+        <a href="mailto:webmaster@school.ac.th">ติดต่อ Webmaster (admin_boy@hotmail.com)</a>
+    </div>
+
+</body>
+</html>
